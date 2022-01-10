@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empty site</title>
+
+    <style>
+.PageFrame {
+display: grid;
+grid-template-columns: auto repeat(2, 400px) auto;
+grid-template-rows: 140px auto 100px;
+grid-column-gap: 12px;
+grid-row-gap: 12px;
+}
+
+.HeaderGrid { grid-area: 1 / 1 / 2 / 5; background-color: blue; }
+.CenterHeader { grid-area: 1 / 2 / 2 / 4; background-color: red; }
+.ContentGrid { grid-area: 2 / 2 / 3 / 4; background-color: greenyellow;}
+.LeftContentSide { grid-area: 2 / 2 / 3 / 3; background-color: green; }
+.RightContentSide { grid-area: 2 / 3 / 3 / 4; background-color: yellow; }
+.FooterGrid { grid-area: 3 / 1 / 4 / 5; background-color: aqua; }
+.CenterFooter { grid-area: 3 / 2 / 4 / 4; background-color: darkblue;}
+    </style>
 </head>
 <body>
-    <p>Hello in my (for a while) empty website :)</p>
+    <div class="PageFrame">
+        <div class="HeaderGrid">111111</div>
+        <div class="CenterHeader">222222</div>
+        <div class="ContentGrid">333333</div>
+        <div class="LeftContentSide">444444</div>
+        <div class="RightContentSide">555555</div>
+        <div class="FooterGrid">666666</div>
+        <div class="CenterFooter">777777</div>
+    </div>
 </body>
 </html>
