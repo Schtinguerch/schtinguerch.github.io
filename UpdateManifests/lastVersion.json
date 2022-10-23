@@ -1,8 +1,8 @@
 {
     "Files": [
-        "StandardConfig.lml",
-        "test.html",
-        "AZ.lml"
+        "CustomLearning.exe.config",
+        "CustomLearning.exe",
+        "Newtonsoft.Json.dll"
     ],
-    "PreviousVersion": "0.9.7.0"
+    "PreviousVersion": "0.9.1.0"
 }
